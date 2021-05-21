@@ -1,0 +1,30 @@
+$theme-bg: #f0f;
+
+body {
+  background-color: $theme-bg;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  li {
+    color: darkblue;
+    text-decoration: none;
+  }
+}
+
+/* commentaire qui fait plaisir format Tablette */
+@media screen and (min-width: 575) and (max-width: 880) {
+}
+
+/* commentaire qui fait plaisir format Web */
+@media screen and (min-width: 881) {
+  body {
+    max-width: 1440px;
+  }
+}

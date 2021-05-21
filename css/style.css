@@ -1,0 +1,27 @@
+body {
+  background-color: #f0f;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  color: darkblue;
+  text-decoration: none;
+}
+
+/* commentaire qui fait plaisir format Tablette */
+/* commentaire qui fait plaisir format Web */
+@media screen and (min-width: 881) {
+  body {
+    max-width: 1440px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
